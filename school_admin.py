@@ -18,7 +18,6 @@ def check(val):
         student_info_list = student_info.split(' ')
 
         print("\nThe entered information is:- \nName: {}\nStudent ID: {}\nAge: {}\nContact_number: {}\nE-mail ID: {}".format(student_info_list[0], student_info_list[1], student_info_list[2], student_info_list[3], student_info_list[4]))
-
         choice_check = input("Is the entered information correct?(yes/no): ")
 
         if choice_check == "no":
